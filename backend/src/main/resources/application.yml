@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    # 生产环境请改成老师提供的 MySQL 或其他数据库连接。
+    # url: jdbc:mysql://localhost:3306/teacher_course_db?useSSL=false&serverTimezone=UTC
+    # username: root
+    # password: your_password
+    url: jdbc:h2:mem:course_db;MODE=MySQL;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+
+app:
+  cors:
+    allowed-origins: http://localhost:5173
+  deepseek:
+    api-key: sk-cf410890ecd84b5a8c596742ba3a37dc
+    base-url: DEEPSEEK_API_KEY
+    model: deepseek-chat

@@ -1,0 +1,35 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2026-03-09T17:26:01.287+08:00  INFO 19368 --- [           main] c.e.a.AssistantBackendApplication        : Starting AssistantBackendApplication v0.0.1-SNAPSHOT using Java 25.0.2 with PID 19368 (D:\EDA-query\backend\target\assistant-backend-0.0.1-SNAPSHOT.jar started by 李天宇 in D:\EDA-query\backend)
+2026-03-09T17:26:01.289+08:00  INFO 19368 --- [           main] c.e.a.AssistantBackendApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-03-09T17:26:01.765+08:00  INFO 19368 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-09T17:26:01.854+08:00  INFO 19368 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2026-03-09T17:26:02.230+08:00  INFO 19368 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-09T17:26:02.242+08:00  INFO 19368 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-09T17:26:02.242+08:00  INFO 19368 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-03-09T17:26:02.274+08:00  INFO 19368 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-09T17:26:02.274+08:00  INFO 19368 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 952 ms
+2026-03-09T17:26:02.300+08:00  INFO 19368 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-09T17:26:02.466+08:00  INFO 19368 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:course_db user=SA
+2026-03-09T17:26:02.469+08:00  INFO 19368 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-09T17:26:02.477+08:00  INFO 19368 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:course_db'
+2026-03-09T17:26:02.560+08:00  INFO 19368 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-09T17:26:02.601+08:00  INFO 19368 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-03-09T17:26:02.629+08:00  INFO 19368 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-09T17:26:02.804+08:00  INFO 19368 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-09T17:26:03.273+08:00  INFO 19368 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-09T17:26:03.311+08:00  INFO 19368 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09T17:26:03.710+08:00  WARN 19368 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-09T17:26:03.953+08:00  INFO 19368 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-09T17:26:03.966+08:00  INFO 19368 --- [           main] c.e.a.AssistantBackendApplication        : Started AssistantBackendApplication in 2.965 seconds (process running for 3.305)
+2026-03-09T17:26:22.196+08:00  INFO 19368 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-09T17:26:22.196+08:00  INFO 19368 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-09T17:26:22.197+08:00  INFO 19368 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
