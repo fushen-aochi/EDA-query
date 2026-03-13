@@ -30,6 +30,6 @@ app:
   cors:
     allowed-origins: http://localhost:5173
   deepseek:
-    api-key: sk-cf410890ecd84b5a8c596742ba3a37dc
-    base-url: DEEPSEEK_API_KEY
+    api-key: DEEPSEEK_API_KEY
+    base-url: https://api.deepseek.com
     model: deepseek-chat
